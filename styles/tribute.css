@@ -1,0 +1,52 @@
+html {
+  font-family: 'Playfair Display', serif;
+  background-color: #252422;
+  color: #fffcf2;
+  font-size: 1.2em;
+}
+#title, #img-div {
+  margin: 0 25% 0 25%;
+}
+#title {
+  font-size: 3em;
+  background-color: #eb5e28;
+}
+a, a:visited{
+  color: #fffcf2;
+  background-color: #eb5e28;
+  padding: 11px 20px 5px 20px;
+  width: 90px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  height: 50px;
+}
+a:hover {
+  background-color: #fffcf2;
+  color: #eb5e28;
+}
+p {
+  text-align: center;
+  padding: 20px;
+}
+.img {
+  display: flex;
+}
+.img p {
+  padding-left: 15px;
+  padding-top: 100px;
+  font-size: 1.4em;
+}
+@media only screen //monitors
+and (min-width : 1224px) {
+/* Styles */
+}
+@media only screen and (max-width : 720px) {
+  p {
+    text-align: justify;
+  }
+  #title, #img-div {
+    margin: 0;
+  }
+}
