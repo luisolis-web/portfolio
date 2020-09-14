@@ -63,3 +63,7 @@ p {
   left: 91px;
   /* x = 3 */
 }
+a {
+    display: block;
+    margin: 10px;
+}
