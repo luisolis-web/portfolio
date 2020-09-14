@@ -1,0 +1,65 @@
+#tool {
+  position: relative;
+  border: solid 1px grey;
+  height: 100px;
+  width: 100px;
+  display: flex;
+}
+#text {
+  color: black;
+  font-size: 14px;
+  display: inline;
+  width: auto;
+}
+p {
+  color: red;
+  font-size: 30px;
+  width: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 24px;
+}
+#p1 { 
+  left: 0px;
+  /* x = -3 */
+}
+#p2 {
+  left: 9px;
+  /* x = -2.4 */
+}
+#p3 {
+  left: 19px;
+  /* x = -1.8 */
+}
+#p4 {
+  left: 28px;
+  /* x = -1.2 */
+}
+#p5 {
+  left: 37px;
+  /* x =  -.6*/
+}
+#p6 {
+  left: 46px;
+  /* x = 0 */
+}
+#p7 {
+  left: 55px;
+  /* x = .6 */
+}
+#p8 {
+  left: 64px;
+  /* x = 1.2 */
+}
+#p9 {
+  left: 73px;
+  /* x = 1.8 */
+}
+#p10 {
+  left: 82px;
+  /* x = 2.4 */
+}
+#p11 {
+  left: 91px;
+  /* x = 3 */
+}
