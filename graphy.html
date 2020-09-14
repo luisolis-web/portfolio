@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Graphy</title>
+  <meta name="description" content="A graph plotter">
+  <meta name="author" content="Olivia">
+
+  <link rel="stylesheet" href="styles/graphy.processed.css">
+
+</head>
+
+<body>
+  <script type='text/javascript' src="scripts/graphy.js"></script>
+  <div id='tool'>
+    <p id='p1'>.</p>
+    <p id='p2'>.</p>
+    <p id='p3'>.</p>
+    <p id='p4'>.</p>
+    <p id='p5'>.</p>
+    <p id='p6'>.</p>
+    <p id='p7'>.</p>
+    <p id='p8'>.</p>
+    <p id='p9'>.</p>
+    <p id='p10'>.</p>
+    <p id='p11' >.</p>
+  </div>
+  <label for='#fnct'>f(x) = </label>
+  <input id='fnct' type='text' value='x'>
+  <button onclick='compute(fnct)' id='cmpButton'>Graph</button>
+  <p id='text'> For exponents, use '**'. Please be kind to the graph. It might need some extra parentheses to understand you :) format for something like '2sin(3x)' should be '2*sin(2*x)'<br> The graph has 11 points that will be used to plot. The lines start at y=0. The max is y=3, min is y=-3. Same goes for the x axis.</p>
+</body>  
+</html> 
