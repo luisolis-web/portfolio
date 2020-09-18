@@ -1,0 +1,25 @@
+
+.fa {
+  background-color: #6c757d;
+  color: #f8f9fa;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+}
+.fa:hover {
+text-decoration: none;
+color: #f8f9fa;
+}
+.fa-facebook:hover{
+  background-color: #3B5998;
+}
+.fa-twitter:hover{
+  background-color: #55ACEE;
+}
+.fa-snapchat-ghost:hover{
+  background-color: #fffc00;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
