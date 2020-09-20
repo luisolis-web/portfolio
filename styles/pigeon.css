@@ -9,6 +9,14 @@
   text-decoration: none;
   margin: 0px 2px;
 }
+.jumbotron {
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(209,209,246,1) 35%, rgba(103,226,251,1) 100%);
+}
+.card-body {
+  background-color: #B8B8B8;
+
+}
 .fa:hover {
 text-decoration: none;
 color: #f8f9fa;
